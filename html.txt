@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Button Mashing</title>
+    </head>
+    <body>
+        <button id="dice1">-</button> 
+        <button id="dice2">-</button> 
+        <button id="dice3">-</button> 
+        <button id="dice4">-</button> 
+        <button id="dice5">-</button><br/>
+        <button id="rollDice" onclick="">Click to Roll</button>
+        <script src="script.js"></script>
+        <p>Total:  <input id="total" type="text" size="3" readonly></p>
+    </body>
+</html>

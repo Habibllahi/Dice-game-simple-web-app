@@ -1,0 +1,12 @@
+function getRandomNumber(min, max) {
+    return Math.floor(((Math.random() * (max - min)) + min));
+}
+
+function rollDice() {
+       sum = 0;
+       for (x=1; x < 5; x++) {
+            newValue = getRandomNumber(1,6);
+            sum += newValue;
+            document.getElementById("dice"+x).innerHTML = newValue;
+        }
+       document.getElementById("total").value = sum; 
